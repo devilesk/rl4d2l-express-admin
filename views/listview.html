@@ -1,13 +1,13 @@
 
 {{#view}}
-<h2>
-    {{#table}}{{string.select}} {{name}} {{string.to-change}}.{{/table}}
-    {{^table}}{{name}}{{/table}}
-    <a href="#" class="glyphicon glyphicon-filter" title="{{string.filter}}"></a>
+<h5 class="d-flex">
+    {{#table}}<span class="p-1">{{string.select}} {{name}} {{string.to-change}}.</span>{{/table}}
+    {{^table}}<span class="p-1">{{name}}</span>{{/table}}
+    <button class="btn btn-outline-primary" title="{{string.filter}}" type="button" data-toggle="collapse" data-target="#listview-filter" aria-expanded="false" aria-controls="listview-filter"><span class="fa fa-filter"></span></button>
     {{#table}}
-    <a href="{{root}}/{{slug}}/add" class="btn btn-default">{{string.add}} {{name}}</a>
+    <a href="{{root}}/{{slug}}/add" class="btn btn-primary ml-auto">{{string.add}} {{name}}</a>
     {{/table}}
-</h2>
+</h5>
 {{/view}}
 
 {{#show.success}}
@@ -26,7 +26,7 @@
 
 {{>filter}}
 
-<table class="table table-bordered table-striped table-hover x-table">
+<table class="table table-bordered table-striped table-hover table-responsive x-table">
     <thead>
         <tr class="label-default">
         {{#columns}}

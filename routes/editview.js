@@ -134,5 +134,14 @@ function render (req, res, next, data, args) {
         column:   'editview/column'
     };
     
+    var settings = res.locals._admin.settings;
+    var tables = [{slug: '', name: 'Home', active: false}];
+    for (var key in settings) {
+        var item = settings[key];
+        if (!item.mainview.show || !item.table.pk || item.table.view) continue;
+        tables.push({slug: item.slug, name: item.table.verbose, active: args.slug === item.slug });
+    }
+    res.locals.tables = !tables.length ? null : {items: tables};
+    
     next();
 }

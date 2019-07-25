@@ -1,11 +1,12 @@
 {
     "name"              : "English",
 
-    "logo"              : "Express Admin",
+    "logo"              : "RL4D2LBUFF Admin",
+    "brand"             : "img/brand.png",
     
     "layout"            : "Layout",
     "centered"          : "Centered",
-    "streched"          : "Streched",
+    "streched"          : "Stretched",
     "theme"             : "Theme",
     "language"          : "Language",
 
@@ -18,7 +19,7 @@
     "invalid-password"  : "Invalid password!",
 
     "home"              : "Home",
-    "site-admin"        : "Site administration",
+    "site-admin"        : "RL4D2LBUFF Administration",
     "tables"            : "Tables",
     "views"             : "Views",
     "others"            : "Others",
@@ -44,7 +45,7 @@
 
     "success"           : "Success",
     "error"             : "Error",
-    "saved"             : "The record have been saved",
+    "saved"             : "The record has been saved",
     "checkout"          : "Check out the highlighted fields below",
 
     "notfound"          : "The requested page was not found."

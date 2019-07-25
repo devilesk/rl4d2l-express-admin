@@ -82,13 +82,13 @@ $(function () {
             localStorage.setItem('mv-filter', '');
             $input.val('');
             $input.trigger('change');
-            $('.x-filter').hide();
+            $('.mv.x-filter').collapse('hide');
         });
         var mvfilter = localStorage.getItem('mv-filter');
         if (mvfilter) {
             $input.val(mvfilter);
             $input.trigger('change');
-            $('.x-mv.x-filter').show();
+            $('.x-mv.x-filter').collapse('show');
         }
     }());
 
@@ -177,13 +177,13 @@ $(function () {
 
     // layout
     $('#x-layout a').on('click', function (e) {
-        $('body, #navbar').removeClass();
+        $('#wrapper').removeClass();
         var layout = this.hash.slice(1);
         layout == 'fixed'
-            ? $('body, #navbar').addClass('container')
-            : $('body, #navbar').addClass('container container-fluid');
-        $('#x-layout li').removeClass('active');
-        $(this).parent().addClass('active');
+            ? $('#wrapper').addClass('container')
+            : $('#wrapper').addClass('container-fluid');
+        $('#x-layout a').removeClass('active');
+        $(this).addClass('active');
         localStorage.setItem('layout', layout);
         return false;
     });
@@ -209,12 +209,6 @@ $(function () {
 
     $('body').on('click', 'td .form-group .btn-today', function (e) {
         $(this).parents('td').find('input').val(toJSONLocal(new Date()));
-        return false;
-    });
-
-    // filter
-    $('.glyphicon-filter').on('click', function (e) {
-        $('.x-filter').toggle();
         return false;
     });
 

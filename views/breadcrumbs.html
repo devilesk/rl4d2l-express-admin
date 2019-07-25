@@ -1,16 +1,17 @@
-
 {{#breadcrumbs}}
-<ul class="breadcrumb">
+<nav aria-label="breadcrumb">
+<ol class="breadcrumb">
 {{#links}}
 
     {{^active}}
-    <li><a href="{{root}}{{url}}">{{text}}</a></li>
+    <li class="breadcrumb-item"><a href="{{root}}{{url}}">{{text}}</a></li>
     {{/active}}
 
     {{#active}}
-    <li class="active">{{text}}</li>
+    <li class="breadcrumb-item active">{{text}}</li>
     {{/active}}
     
 {{/links}}
-</ul>
+</ol>
+</nav>
 {{/breadcrumbs}}

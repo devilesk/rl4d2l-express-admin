@@ -1,9 +1,8 @@
 <script type="text/javascript">
     (function () {
-        var body = document.getElementById('express-admin'),
-            navbar = document.getElementById('navbar'),
+        var body = document.getElementById('wrapper'),
             layout = localStorage.getItem('layout') || 'fixed';
-        body.className = navbar.className = 
+        body.className = 
             (layout == 'fixed') ? 'container' : 'container container-fluid';
     }());
 </script>

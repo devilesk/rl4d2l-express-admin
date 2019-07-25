@@ -10,7 +10,6 @@
     /*login button*/
     #login .btn-default { width: 100%; }
 }
-.container-fluid { width: auto; max-width: none; }
 
 /*hide chosen select by default*/
 .chosen-select { display: none; }
@@ -25,11 +24,6 @@
 #controls { text-align: right; }
 #controls button { width: auto; }
 #controls .btn-danger { float: left; }
-
-/*fixed header fix*/
-#content { padding-top: 70px; }
-/*login header*/
-#login .label-default { color: #f8f8f2; }
 
 /*mainview*/
 .x-table tbody td .glyphicon-plus { font-size: 8px; position: relative; top: -1px; }
@@ -62,8 +56,6 @@
 
 /*fix for all fields*/
 .x-table .form-group { margin-bottom: 0; }
-/*inline table headers*/
-.x-table .label-default { color: #f8f8f2; }
 /*checkbox remove inline*/
 .x-table .head td { padding-top: 0; padding-bottom: 0; }
 .x-table .head label { float: right; margin-bottom: 0; }
@@ -141,26 +133,3 @@ html, body { height: 100%; }
 #wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -30px; }
 footer, #footer-push { height: 30px; text-align: center; }
 footer p { margin-bottom: 0; }
-
-
-/*custom scrollbars in WebKit*/
-::-webkit-scrollbar {
-    width: 13px;
-}
-::-webkit-scrollbar-track-piece {
-    background: #333;
-    -webkit-border-radius: 2px;
-}
-::-webkit-scrollbar-thumb {
-    height: 50px;
-    background: #bbb;
-    -webkit-border-radius: 8px;
-    outline: 2px solid #333;
-    outline-offset: -2px;
-    border: 2px solid #333;
-}
-::-webkit-scrollbar-thumb:hover {
-    height: 50px;
-    background-color: #ddd;
-    -webkit-border-radius: 8px;
-}

@@ -3,7 +3,7 @@ exports.get = function (req, res, next) {
     var settings = res.locals._admin.settings,
         custom = res.locals._admin.custom;
 
-    var tables = [];
+    var tables = [{slug: '', name: 'Home', active: true}];
     for (var key in settings) {
         var item = settings[key];
         if (!item.mainview.show || !item.table.pk || item.table.view) continue;
