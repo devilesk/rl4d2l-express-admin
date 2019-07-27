@@ -1,0 +1,8 @@
+{
+    "user": {
+        "name": "user",
+        "admin": true,
+        "salt": "salt",
+        "hash": "hash"
+    }
+}
