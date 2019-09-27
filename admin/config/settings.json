@@ -822,6 +822,518 @@
                 "editview": {
                     "show": true
                 }
+            },
+            {
+                "name": "infBoomsProxyTotal",
+                "verbose": "infBoomsProxyTotal",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgTotalPerSpawn",
+                "verbose": "infDmgTotalPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgUprightPerSpawn",
+                "verbose": "infDmgUprightPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgTankPerSpawn",
+                "verbose": "infDmgTankPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgTankIncapPerSpawn",
+                "verbose": "infDmgTankIncapPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgScratchPerSpawn",
+                "verbose": "infDmgScratchPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgScratchSmokerPerSpawn",
+                "verbose": "infDmgScratchSmokerPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgScratchBoomerPerSpawn",
+                "verbose": "infDmgScratchBoomerPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgScratchHunterPerSpawn",
+                "verbose": "infDmgScratchHunterPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgScratchChargerPerSpawn",
+                "verbose": "infDmgScratchChargerPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgScratchSpitterPerSpawn",
+                "verbose": "infDmgScratchSpitterPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgScratchJockeyPerSpawn",
+                "verbose": "infDmgScratchJockeyPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgSpitPerSpawn",
+                "verbose": "infDmgSpitPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgBoomPerSpawn",
+                "verbose": "infDmgBoomPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDmgTankUpPerSpawn",
+                "verbose": "infDmgTankUpPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infHunterDPsPerSpawn",
+                "verbose": "infHunterDPsPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infHunterDPDmgPerSpawn",
+                "verbose": "infHunterDPDmgPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infDeathChargesPerSpawn",
+                "verbose": "infDeathChargesPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infChargesPerSpawn",
+                "verbose": "infChargesPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infMultiChargesPerSpawn",
+                "verbose": "infMultiChargesPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infBoomsSinglePerSpawn",
+                "verbose": "infBoomsSinglePerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infBoomsDoublePerSpawn",
+                "verbose": "infBoomsDoublePerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infBoomsTriplePerSpawn",
+                "verbose": "infBoomsTriplePerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infBoomsQuadPerSpawn",
+                "verbose": "infBoomsQuadPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infBoomsPerSpawn",
+                "verbose": "infBoomsPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infBoomsProxyTotalPerSpawn",
+                "verbose": "infBoomsProxyTotalPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infBoomerPopsPerSpawn",
+                "verbose": "infBoomerPopsPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infLedgedPerSpawn",
+                "verbose": "infLedgedPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infTankRockHitsPerSpawn",
+                "verbose": "infTankRockHitsPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infCarsTriggeredPerSpawn",
+                "verbose": "infCarsTriggeredPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infJockeyRideDurationPerSpawn",
+                "verbose": "infJockeyRideDurationPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "infJockeyRideTotalPerSpawn",
+                "verbose": "infJockeyRideTotalPerSpawn",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
             }
         ],
         "mainview": {
@@ -1107,6 +1619,22 @@
                     "text": true
                 },
                 "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "configName",
+                "verbose": "configName",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(64)",
                 "allowNull": true,
                 "defaultValue": null,
                 "listview": {
@@ -1799,6 +2327,22 @@
                     "text": true
                 },
                 "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "configName",
+                "verbose": "configName",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(64)",
                 "allowNull": true,
                 "defaultValue": null,
                 "listview": {
@@ -3402,6 +3946,134 @@
                 "editview": {
                     "show": true
                 }
+            },
+            {
+                "name": "plyHeadshotsCISmg",
+                "verbose": "plyHeadshotsCISmg",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "plyHeadshotsCIPistol",
+                "verbose": "plyHeadshotsCIPistol",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "plyHitsCISmg",
+                "verbose": "plyHitsCISmg",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "plyHitsCIPistol",
+                "verbose": "plyHitsCIPistol",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "plyHeadshotsPctSISmg",
+                "verbose": "plyHeadshotsPctSISmg",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "plyHeadshotsPctSIPistol",
+                "verbose": "plyHeadshotsPctSIPistol",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "plyHeadshotsPctCISmg",
+                "verbose": "plyHeadshotsPctCISmg",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "plyHeadshotsPctCIPistol",
+                "verbose": "plyHeadshotsPctCIPistol",
+                "control": {
+                    "text": true
+                },
+                "type": "decimal(10,5)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
             }
         ],
         "mainview": {
@@ -3451,7 +4123,7 @@
                 "name": "createdAt",
                 "verbose": "createdAt",
                 "control": {
-                    "text": true
+                    "datetime": true
                 },
                 "type": "timestamp",
                 "allowNull": true,
@@ -3647,7 +4319,7 @@
                 "name": "createdAt",
                 "verbose": "createdAt",
                 "control": {
-                    "text": true
+                    "datetime": true
                 },
                 "type": "timestamp",
                 "allowNull": true,
@@ -3794,6 +4466,546 @@
                     "text": true
                 },
                 "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            }
+        ],
+        "mainview": {
+            "show": true
+        },
+        "listview": {
+            "order": {},
+            "page": 25
+        },
+        "editview": {
+            "readonly": false
+        }
+    },
+    "leaguematchlog": {
+        "slug": "leaguematchlog",
+        "table": {
+            "name": "leaguematchlog",
+            "pk": "id",
+            "verbose": "leaguematchlog"
+        },
+        "columns": [
+            {
+                "name": "id",
+                "verbose": "id",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": false,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "createdAt",
+                "verbose": "createdAt",
+                "control": {
+                    "datetime": true
+                },
+                "type": "timestamp",
+                "allowNull": true,
+                "defaultValue": "CURRENT_TIMESTAMP",
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "matchId",
+                "verbose": "matchId",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "map",
+                "verbose": "map",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(64)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "season",
+                "verbose": "season",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "playoffs",
+                "verbose": "playoffs",
+                "control": {
+                    "text": true
+                },
+                "type": "tinyint(1)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "round",
+                "verbose": "round",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "deleted",
+                "verbose": "deleted",
+                "control": {
+                    "text": true
+                },
+                "type": "tinyint(1)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "winner",
+                "verbose": "winner",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(32)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "loser",
+                "verbose": "loser",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(32)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "resultCode",
+                "verbose": "resultCode",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            }
+        ],
+        "mainview": {
+            "show": true
+        },
+        "listview": {
+            "order": {},
+            "page": 25
+        },
+        "editview": {
+            "readonly": false
+        }
+    },
+    "season": {
+        "slug": "season",
+        "table": {
+            "name": "season",
+            "pk": "id",
+            "verbose": "season"
+        },
+        "columns": [
+            {
+                "name": "id",
+                "verbose": "id",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": false,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "createdAt",
+                "verbose": "createdAt",
+                "control": {
+                    "datetime": true
+                },
+                "type": "timestamp",
+                "allowNull": true,
+                "defaultValue": "CURRENT_TIMESTAMP",
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "season",
+                "verbose": "season",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "startedAt",
+                "verbose": "startedAt",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "endedAt",
+                "verbose": "endedAt",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            }
+        ],
+        "mainview": {
+            "show": true
+        },
+        "listview": {
+            "order": {},
+            "page": 25
+        },
+        "editview": {
+            "readonly": false
+        }
+    },
+    "team": {
+        "slug": "team",
+        "table": {
+            "name": "team",
+            "pk": "id",
+            "verbose": "team"
+        },
+        "columns": [
+            {
+                "name": "id",
+                "verbose": "id",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": false,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "createdAt",
+                "verbose": "createdAt",
+                "control": {
+                    "datetime": true
+                },
+                "type": "timestamp",
+                "allowNull": true,
+                "defaultValue": "CURRENT_TIMESTAMP",
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "season",
+                "verbose": "season",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "draftOrder",
+                "verbose": "draftOrder",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "seed",
+                "verbose": "seed",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "wins",
+                "verbose": "wins",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "losses",
+                "verbose": "losses",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "name",
+                "verbose": "name",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(64)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "deleted",
+                "verbose": "deleted",
+                "control": {
+                    "text": true
+                },
+                "type": "tinyint(1)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "steamid_0",
+                "verbose": "steamid_0",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(32)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "steamid_1",
+                "verbose": "steamid_1",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(32)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "steamid_2",
+                "verbose": "steamid_2",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(32)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "steamid_3",
+                "verbose": "steamid_3",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(32)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "logoImage",
+                "verbose": "logoImage",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(256)",
                 "allowNull": true,
                 "defaultValue": null,
                 "listview": {
