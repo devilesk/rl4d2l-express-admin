@@ -4074,6 +4074,22 @@
                 "editview": {
                     "show": true
                 }
+            },
+            {
+                "name": "plyDmgTakenSI",
+                "verbose": "plyDmgTakenSI",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
             }
         ],
         "mainview": {
@@ -5006,6 +5022,614 @@
                     "text": true
                 },
                 "type": "varchar(256)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            }
+        ],
+        "mainview": {
+            "show": true
+        },
+        "listview": {
+            "order": {},
+            "page": 25
+        },
+        "editview": {
+            "readonly": false
+        }
+    },
+    "bankroll": {
+        "slug": "bankroll",
+        "table": {
+            "name": "bankroll",
+            "pk": "id",
+            "verbose": "bankroll"
+        },
+        "columns": [
+            {
+                "name": "id",
+                "verbose": "id",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": false,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "createdAt",
+                "verbose": "createdAt",
+                "control": {
+                    "text": true
+                },
+                "type": "timestamp",
+                "allowNull": false,
+                "defaultValue": "CURRENT_TIMESTAMP",
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "userId",
+                "verbose": "userId",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(48)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "amount",
+                "verbose": "amount",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "deleted",
+                "verbose": "deleted",
+                "control": {
+                    "text": true
+                },
+                "type": "tinyint(1)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            }
+        ],
+        "mainview": {
+            "show": true
+        },
+        "listview": {
+            "order": {},
+            "page": 25
+        },
+        "editview": {
+            "readonly": false
+        }
+    },
+    "bet": {
+        "slug": "bet",
+        "table": {
+            "name": "bet",
+            "pk": "id",
+            "verbose": "bet"
+        },
+        "columns": [
+            {
+                "name": "id",
+                "verbose": "id",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": false,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "createdAt",
+                "verbose": "createdAt",
+                "control": {
+                    "text": true
+                },
+                "type": "timestamp",
+                "allowNull": false,
+                "defaultValue": "CURRENT_TIMESTAMP",
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "name",
+                "verbose": "name",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(128)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "choices",
+                "verbose": "choices",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(256)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "winner",
+                "verbose": "winner",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(64)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "status",
+                "verbose": "status",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "createdTimestamp",
+                "verbose": "createdTimestamp",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "endTimestamp",
+                "verbose": "endTimestamp",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "lockTimestamp",
+                "verbose": "lockTimestamp",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "closeTimestamp",
+                "verbose": "closeTimestamp",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "deleted",
+                "verbose": "deleted",
+                "control": {
+                    "text": true
+                },
+                "type": "tinyint(1)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            }
+        ],
+        "mainview": {
+            "show": true
+        },
+        "listview": {
+            "order": {},
+            "page": 25
+        },
+        "editview": {
+            "readonly": false
+        }
+    },
+    "transaction": {
+        "slug": "transaction",
+        "table": {
+            "name": "transaction",
+            "pk": "id",
+            "verbose": "transaction"
+        },
+        "columns": [
+            {
+                "name": "id",
+                "verbose": "id",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": false,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "createdAt",
+                "verbose": "createdAt",
+                "control": {
+                    "text": true
+                },
+                "type": "timestamp",
+                "allowNull": false,
+                "defaultValue": "CURRENT_TIMESTAMP",
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "source",
+                "verbose": "source",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(48)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "target",
+                "verbose": "target",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(48)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "amount",
+                "verbose": "amount",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "type",
+                "verbose": "type",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "wagerId",
+                "verbose": "wagerId",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "comment",
+                "verbose": "comment",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(256)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "deleted",
+                "verbose": "deleted",
+                "control": {
+                    "text": true
+                },
+                "type": "tinyint(1)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            }
+        ],
+        "mainview": {
+            "show": true
+        },
+        "listview": {
+            "order": {},
+            "page": 25
+        },
+        "editview": {
+            "readonly": false
+        }
+    },
+    "wager": {
+        "slug": "wager",
+        "table": {
+            "name": "wager",
+            "pk": "id",
+            "verbose": "wager"
+        },
+        "columns": [
+            {
+                "name": "id",
+                "verbose": "id",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": false,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "createdAt",
+                "verbose": "createdAt",
+                "control": {
+                    "text": true
+                },
+                "type": "timestamp",
+                "allowNull": false,
+                "defaultValue": "CURRENT_TIMESTAMP",
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "betId",
+                "verbose": "betId",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "userId",
+                "verbose": "userId",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(48)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "choice",
+                "verbose": "choice",
+                "control": {
+                    "text": true
+                },
+                "type": "varchar(64)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "amount",
+                "verbose": "amount",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "createdTimestamp",
+                "verbose": "createdTimestamp",
+                "control": {
+                    "text": true
+                },
+                "type": "int(11)",
+                "allowNull": true,
+                "defaultValue": null,
+                "listview": {
+                    "show": true
+                },
+                "editview": {
+                    "show": true
+                }
+            },
+            {
+                "name": "deleted",
+                "verbose": "deleted",
+                "control": {
+                    "text": true
+                },
+                "type": "tinyint(1)",
                 "allowNull": true,
                 "defaultValue": null,
                 "listview": {
