@@ -4714,7 +4714,7 @@
                     "text": true
                 },
                 "type": "int(11)",
-                "allowNull": false,
+                "allowNull": true,
                 "defaultValue": null,
                 "listview": {
                     "show": true
